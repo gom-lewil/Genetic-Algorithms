@@ -3,9 +3,10 @@ import numpy as np
 
 def cross_mean(parents):
     """
+    This function crosses multiple parents through their mean and returns a single offspring
     Args:
         parents (array):
-            (tuples): in each tuple is all data of a parents
+            (tuples): in each tuple is all data of parents
                 individual (array):
                 args* : sigma, z, ...
                 fitness: fitness
