@@ -5,7 +5,7 @@ import random
 
 def one_plus_lambda(fit_func, adam, cross=cs.cross_mean, lamb=100, ro=2, sigma=0.1, n=10, gen=100, print_results=False):
     """
-    Solves the optimization problem of fit_func with the (μ + λ)-ES algorithm.
+    Solves the optimization problem of fit_func with the (1 + λ)-ES algorithm.
 
     Args:
         fit_func (func): evaluation function for fitness of an individual - gets optimized
